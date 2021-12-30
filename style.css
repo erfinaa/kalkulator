@@ -1,0 +1,61 @@
+html, body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 350px;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.input input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    text-align: right;
+}
+
+.operasi {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.operasi #operasi {
+    width: 75%;
+    padding: 10px 15px;
+}
+
+.operasi #tombol {
+    width: 20%;
+    padding: 10px 15px;
+}
+
+.hasil #hasil {
+    margin-top: 25px;
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    text-align: right;
+    font-size: 50px;
+    font-weight: bold;
+}

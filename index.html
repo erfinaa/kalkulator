@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Kalkulator - JQuery</title>
+</head>
+<body>
+    <main>
+        <h1>Kalkulator</h1>
+        <section class="input">
+            <input type="text" id="nilai1" placeholder="0">
+            <input type="text" id="nilai2" placeholder="0">
+        </section>
+        <section class="operasi">
+            <select id="operasi">
+                <option value="*" selected>Kali</option>
+                <option value="/">Bagi</option>
+                <option value="+">Tambah</option>
+                <option value="-">Kurang</option>
+            </select>
+            <button id="tombol">Hitung</button>
+        </section>
+        <section class="hasil">
+            <input type="text" id="hasil" placeholder="0">
+        </section>
+    </main>
+
+    <script src="/jquery-3.6.0-1.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
